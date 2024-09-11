@@ -1,0 +1,84 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img-right{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    margin-top: 16px;
+    padding-left: 10vw;
+    margin-bottom: 64px;
+}
+.p-right-one{
+    height: 50vh;
+    width: 40vw;
+    background-image: url(../images/pexels-anna-nekrashevich-6801648.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+.p-right{
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    padding-right: 16px;
+}
+.img-left{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    padding-left: 10vw;
+    margin-bottom: 64px;
+}
+.p-left-one{
+    height: 50vh;
+    width: 40vw;
+    background-image: url(../images/pexels-leeloothefirst-5561913.jpg);
+    background-size: cover;
+    border-radius: 8px;
+}
+.img-left p{
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    padding-left: 16px;
+}
+.m{
+    margin-top: 64px;
+}
+@media screen and (max-width:660px){
+    h2{
+        margin-left: 5vw;
+    }
+    .img-right{
+        flex-direction: column;
+    }
+    .img-left{
+        flex-direction: column;
+    }
+    .p-right-one{
+        width: 90vw;
+        aspect-ratio: 2/1;
+        order: -1;
+    }
+    .p-right{
+        width: 90vw;
+    }
+    .p-left-one{
+        width: 90vw;
+        aspect-ratio: 2/1;
+    }
+    .img-right p{
+        width: 90vw;
+        padding-right: 0;
+        padding-top: 16px;
+    }
+    .img-left p{
+        width: 90vw;
+        padding-left: 0;
+        padding-top: 16px;
+    }
+} 

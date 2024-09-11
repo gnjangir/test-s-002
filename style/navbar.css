@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s;
+}
+body{
+    background-color: #DEDEDE;
+}
+a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 16px;
+}
+
+/* navbar styling */
+.navbar{
+    --bs-navbar-padding-y: 0;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #ffffff;
+    z-index: 4;
+}
+
+/* logo style  */
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.hamburger-menu{
+    cursor: pointer;
+}
+
+.hamburger-menu .line{
+   display: block;
+   width:2.5rem;
+   height: 2px;
+   margin-bottom: 10px;
+   background-color: black;
+   cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    top: 64px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    height: 100%;
+}
+.nav-menu a{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.to-center{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.nav-menu a:hover{
+    background-color: rgb(223, 251, 219);
+}
+.hide{
+    display: none;
+}
+
+/* for Desktop view  */
+@media screen and (min-width:660px){
+    .navbar{
+        justify-content: space-between;
+        padding-top: 4px;
+    }
+    .nav-menu{
+        display: block;
+        position: static;
+        width: auto;
+        margin-right:20px;
+        background: none;
+    }
+    .nav-menu a{
+        display: inline-block;
+        padding: 8px 20px;
+    }
+    .to-center{
+        display: inline-block;
+         padding: 8px 20px;
+     } 
+    .nav-menu a:hover{
+        background-color: rgb(223, 251, 219);
+        border-radius: 5px;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}

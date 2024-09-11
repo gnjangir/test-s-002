@@ -1,0 +1,96 @@
+.first-p{
+    padding-top: 128px;
+    margin-bottom: 32px;
+}
+h1{
+    color: rgb(61, 128, 70);
+}
+p{
+    margin-left: 10vw;
+    width: 80vw;
+    margin-bottom: 64px;
+}
+h2{
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 1;
+    height: 100%;
+}
+footer{
+    background-color: #6B6B6B;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* color: #F5F5F5; */
+}
+ul{
+    list-style: none;
+}
+/*li{
+    margin-top: 32px;
+} */
+h4{
+    margin-bottom: 8px;
+}
+.footer-info{
+    width: 40%;
+}
+.footer-media a {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    font-size: 24px;
+}
+.footer-p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+/* service page */
+
+
+/* 
+    <svg class="border shadow-md" viewBox="0 0 505.12 505.12" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width: 505.12px; height: 505.12px;"><rect class="bg" id="bg" x="0" y="0" width="505.12" height="505.12" fill="#ffffff"></rect><defs><filter id="f1" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="100"></feGaussianBlur></filter></defs><circle cx="78" cy="332" r="252.56" fill="#7AFF7C" filter="url(#f1)"></circle><circle cx="261" cy="147" r="252.56" fill="#C7CAFF" filter="url(#f1)"></circle><circle cx="175" cy="86" r="252.56" fill="#B0FFFF" filter="url(#f1)"></circle><circle cx="252" cy="169" r="252.56" fill="#CEFFBD" filter="url(#f1)"></circle><circle cx="73" cy="438" r="252.56" fill="#A2D2FF" filter="url(#f1)"></circle></svg>
+*/
+
+@media screen and (max-width:660px){
+    p{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    h2{
+        padding-left: 0;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .pdf{
+        aspect-ratio: 2 / 1;
+    }
+    footer{
+        flex-direction: column;
+    }
+    /* footer div{
+
+    } */
+    .h4-f-nav{
+        margin-left: 8px;
+        margin-top: 32px;
+
+    }
+    .footer-info{
+        padding-left: 8px;
+        width: 100%;
+    }
+    .footer-nav{
+        padding-left: 8px;
+    }
+    .footer-media a{
+        margin-right: 4px;
+    }
+}
