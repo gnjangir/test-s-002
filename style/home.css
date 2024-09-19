@@ -57,13 +57,14 @@
     border-radius: 4px;
 }
 /* video start */
+
 .video-container {
     position: relative;
     width: 100%;
     max-width: 800px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 video {
@@ -101,9 +102,10 @@ video {
     display: flex;
     padding-top: 64px;
     padding-bottom: 64px;
-    background-color: rgb(207, 218, 209);
+    background-color: #E8E8E8;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 0 50px #ccc;
 }
 .free-links p{
     text-align: center;
@@ -131,7 +133,7 @@ video {
 }
 /* footer section  */
 footer{
-    background-color: #6B6B6B;
+    background-color: #D1D1D1;
     padding-top: 64px;
     padding-bottom: 64px;
     display: flex;
