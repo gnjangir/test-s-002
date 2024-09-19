@@ -5,7 +5,7 @@
     transition: all 0.4s;
 }
 body{
-    background-color: #DEDEDE;
+    background-color: #E8E8E8;
 }
 a{
     text-decoration: none;
@@ -26,6 +26,7 @@ a{
     padding-right: 5vw;
     background-color: #ffffff;
     z-index: 4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* logo style  */
