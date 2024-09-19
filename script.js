@@ -7,21 +7,21 @@ hamburger.addEventListener('click', () => {
 
 // video view
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const video = document.getElementById('video');
-//   const playPauseBtn = document.getElementById('playPauseBtn');
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.getElementById('video');
+  const playPauseBtn = document.getElementById('playPauseBtn');
 
-//   playPauseBtn.addEventListener('click', () => {
-//       if (video.paused) {
-//           video.play();
-//           playPauseBtn.textContent = 'Pause';
-//           playPauseBtn.classList.remove('play');
-//           playPauseBtn.classList.add('pause');
-//       } else {
-//           video.pause();
-//           playPauseBtn.textContent = 'Play';
-//           playPauseBtn.classList.remove('pause');
-//           playPauseBtn.classList.add('play');
-//       }
-//   });
-// });
+  playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
+          video.play();
+          playPauseBtn.textContent = 'Pause';
+          playPauseBtn.classList.remove('play');
+          playPauseBtn.classList.add('pause');
+      } else {
+          video.pause();
+          playPauseBtn.textContent = 'Play';
+          playPauseBtn.classList.remove('pause');
+          playPauseBtn.classList.add('play');
+      }
+  });
+});
